@@ -1,0 +1,16 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "pre call test library",
+  "main": "preCall.js",
+  "scripts": {
+    "start": "http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://arsenicraghav@bitbucket.org/arsenicraghav/pre-test-call.git"
+  },
+  "author": "Raghvendra Kumar (mail.raghvendra.kumar@gmail.com)",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/arsenicraghav/pre-test-call#readme"
+}

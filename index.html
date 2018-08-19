@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pre Call Test</title>
+	<script src="adapter-latest.js"></script>
+</head>
+<body>
+
+	<div>
+		<button id='btn_1' onclick= beginTest(true,false,'messageBoxId')>Test Media Devices</button>
+
+		<button id='btn_2' onclick= beginTest(false,true,'messageBoxId')>Test Connectivity</button>
+
+		<button id='btn_3' onclick= beginTest(true,true,'messageBoxId')>Test Media Devices + Connectivity Both</button>
+
+		<textarea id="messageBoxId" style="border:none" rows="100" cols="150"></textarea>
+	</div>
+    <script src="preCall.js"></script>
+    <script>
+        function beginTest(mediaDevices, connectivity, messageBoxId ) {
+            Lib.preCallTest(mediaDevices, connectivity, messageBoxId, function (testResult) {
+                console.log(testResult);
+            });
+        }
+	</script>
+</body>
+</html>
