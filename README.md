@@ -9,7 +9,7 @@
 
 3] npm start
 
-4] http://127.0.0.1:8080/
+4] http://127.0.0.1:8080/ in Mozilla Firefox
 
 
 ##Documentation(How to use the library):
